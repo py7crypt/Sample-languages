@@ -11,7 +11,7 @@ from django.utils.translation import gettext_lazy as _
 from django.utils.translation import activate
 
 '''
-  change activete with code i18n of language you need
+  change activate with code i18n of language you need
 '''
 activate("el")
 
