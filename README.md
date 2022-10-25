@@ -1,15 +1,18 @@
 # Sample-languages
 
-is a python file with list of tuples containe language code and name of it
+## is a python file with list of tuples contains language code and name of it. :shipit: 
 
-Requirement:
-  Django : pip install django
+###### 1. Requirement:
+  - Django  
+  ```
+    pip install django 
+  ```
 
 
-Usage:
+###### 2. Usage:
   
-  input:
-  '''
+  - input:
+  ```
     activate("ar")
     language = [
             ('af', _('Afrikaans')),
@@ -20,7 +23,16 @@ Usage:
             ('hy', _('Armenian')),
     ]
     print(language)
-    '''
-    output:
-      [('af', 'الإفريقية'), ('fr', 'الفرنسيّة'), ('sq', 'الألبانيّة'), ('ar', 'العربيّة'), ('hy', 'الأرمنية'), ('en', 'الإنجليزيّة')]
+   ```
+   - output:
+    ```
+      [
+        ('af', 'الإفريقية'), 
+        ('fr', 'الفرنسيّة'), 
+        ('sq', 'الألبانيّة'), 
+        ('ar', 'العربيّة'), 
+        ('hy', 'الأرمنية'), 
+        ('en', 'الإنجليزيّة')
+      ]
+    ```
       
