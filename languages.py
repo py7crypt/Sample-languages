@@ -1,10 +1,4 @@
 '''
-  import get_wsgi_application for using settings of django
-'''
-from django.core.wsgi import get_wsgi_application
-get_wsgi_application()
-
-'''
   import gettext_lazy for translate the _(languages)
 '''
 from django.utils.translation import gettext_lazy as _
